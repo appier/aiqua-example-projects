@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorDefaultGray">
+
+    <com.appier.aiqua.view.DefaultActionBarView
+        android:id="@+id/view_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view_action_bar">
+
+        <ImageView
+            android:id="@+id/img_main_category"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3.5"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/cover_category_image_default"
+            android:contentDescription="product_category_main_img"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/colorTransparent">
+
+            <TextView
+                android:id="@+id/text_get_notification_desc"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="@dimen/text_get_notification_desc_left_right_margin"
+                android:layout_marginRight="@dimen/text_get_notification_desc_left_right_margin"
+
+                android:gravity="center"
+
+                android:text="@string/text_get_notification_desc"
+                android:textSize="@dimen/text_get_notification_desc_size"
+                android:textColor="@color/colorGetNotificationDescText"/>
+
+            <Button
+                android:id="@+id/btn_get_notification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+
+                android:visibility="gone"
+
+                android:paddingTop="@dimen/btn_get_notification_text_top_down_padding"
+                android:paddingBottom="@dimen/btn_get_notification_text_top_down_padding"
+                android:paddingLeft="@dimen/btn_get_notification_text_left_right_padding"
+                android:paddingRight="@dimen/btn_get_notification_text_left_right_padding"
+
+                android:background="@drawable/btn_default_bg2"
+
+                android:text="@string/btn_get_notification_text"
+                android:textSize="@dimen/btn_get_notification_text_size"
+                android:textColor="@color/colorBtnGetNotificationText"/>
+
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/category_listview"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:dividerHeight="@dimen/listview_category_divide_height"
+            android:scrollbars="none"
+            android:background="@color/colorTransparent">
+        </ListView>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_product_item">
+
+    <ImageView
+        android:id="@+id/img_product_thumb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/text_product_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/text_product_item_title_left_margin"
+        android:layout_marginTop="@dimen/text_product_item_title_top_margin"
+
+        android:textStyle="bold"
+        android:textColor="@color/colorProductItemTitleText"
+        android:textSize="@dimen/text_product_item_title_size" />
+
+    <TextView
+        android:id="@+id/text_product_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/text_product_item_desc_left_right_margin"
+        android:layout_marginRight="@dimen/text_product_item_desc_left_right_margin"
+        android:layout_marginTop="@dimen/text_product_item_desc_top_margin"
+
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:lineSpacingExtra="@dimen/text_product_item_desc_line_space"
+
+        android:textSize="@dimen/text_product_item_desc_size"
+        android:textColor="@color/colorProductItemDescText"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/layout_product_item_price_margin">
+
+        <TextView
+            android:id="@+id/current_price"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+
+            android:gravity="left|center_vertical"
+
+            android:textColor="@color/colorProductItemCurPriceText"
+            android:textSize="@dimen/text_product_item_current_price_size" />
+
+        <TextView
+            android:id="@+id/previous_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_product_item_previous_price_left_margin"
+
+            android:gravity="left|bottom"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:ellipsize="end"
+
+            android:textColor="@color/colorProductItemPrePriceText"
+            android:textSize="@dimen/text_product_item_previous_price_size" />
+
+    </LinearLayout>
+
+    <!-- Keep this layout just in case, we have those component at first. -->
+    <RelativeLayout
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/layout_product_item_btn_margin">
+
+        <ImageButton
+            android:id="@+id/btn_wishlist"
+            android:layout_width="@dimen/btn_product_item_like_size"
+            android:layout_height="@dimen/btn_product_item_like_size"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+
+            android:visibility="gone"
+
+            android:layout_marginBottom="@dimen/btn_product_item_like_bottom_margin"
+            android:layout_marginLeft="@dimen/btn_product_item_like_left_margin" />
+
+        <ImageButton
+            android:id="@+id/btn_shopping_cart"
+            android:layout_width="@dimen/btn_product_item_shopping_cart_size"
+            android:layout_height="@dimen/btn_product_item_shopping_cart_size"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+
+            android:visibility="gone"
+
+            android:layout_marginBottom="@dimen/btn_product_item_shopping_cart_bottom_margin"
+            android:layout_marginRight="@dimen/btn_product_item_shopping_cart_right_margin" />
+
+    </RelativeLayout>
+
+</LinearLayout>

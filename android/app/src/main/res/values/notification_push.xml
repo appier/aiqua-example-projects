@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Note: We storage detail for each push notification type in this file -->
+    <!-- Note: The value of item is as following -->
+    <!-- Note: 1. Notification Name/Title -->
+    <!-- Note: 2. Notification Description -->
+    <!-- Note: 3. Notification Action One Naming -->
+    <!-- Note: 4. Notification Action Two Naming -->
+
+    <string-array name="carousel_push_notification">
+        <item>Carousel Push Notification</item>
+        <item>Send multiple images in a single notification to highlight promotions / products.</item>
+        <item>See Carousel</item>
+        <item>See Carousel with title</item>
+    </string-array>
+
+    <string-array name="gif_push_notification">
+        <item>GIF Push Notification</item>
+        <item>Send GIFs in your notification to grab users’ attention.</item>
+        <item>See Gif</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="creative_studio_push_notification">
+        <item>Creative Studio for Android Notification</item>
+        <item>Create a custom notification format to match your brand and use case.</item>
+        <item>See Example 01</item>
+        <item>See Example 02</item>
+    </string-array>
+
+    <string-array name="animated_banner_push_notification">
+        <item>Animated Banner Push Notification</item>
+        <item>Catch users’ attention with animations a crowded notification center.</item>
+        <item>See Animated Banner</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="banner_push_notification">
+        <item>Banner Push Notification</item>
+        <item>Stand out in a cluttered notification center with eye-catching notifications.</item>
+        <item>See Banner</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="slider_push_notification">
+        <item>Slider Push Notification</item>
+        <item>Send multiple big images in a notification, similar to the Carousel Push.</item>
+        <item>See Slider</item>
+        <item></item>
+    </string-array>
+
+
+</resources>

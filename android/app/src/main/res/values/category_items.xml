@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category_title">
+        <item>Fashion</item>
+        <item>Shoes</item>
+        <item>Electronics</item>
+        <item>Pet Supplies</item>
+    </string-array>
+
+    <!-- Keep this just in case since we have this component at first version -->
+    <string-array name="category_description">
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+    </string-array>
+</resources>

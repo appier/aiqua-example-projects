@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">AIQUA</string>
+
+    <!-- Email Template -->
+    <string name="send_to">Open</string>
+    <string name="email_receiver">AIQUA_Sales@appier.com</string>
+    <string name="email_subject"> </string>
+    <string name="email_text"> </string>
+
+    <!-- Login Page -->
+    <string name="text_login_logo">AIQUA logo</string>
+
+    <string name="text_login_title">PROACTIVE ENGAGEMENT ENGINE</string>
+    <string name="text_login_desc">Ready to see how AIQUA can help you proactively engage your users to drive growth and revenue?\n Fill in the details and let\'s get started.</string>
+
+    <string name="edit_name_hint">Name</string>
+    <string name="edit_company_hint">Company</string>
+    <string name="edit_email_hint">Work Email</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+
+    <string name="btn_login_text">Get Started</string>
+    <string name="text_copyright">© 2019 Appier. All Rights Reserved.</string>
+
+    <!-- Home Page -->
+    <string name="btn_contact_sales_text">Contact Sales</string>
+    <string name="btn_show_template_text">Exclusive AIQUA Creatives \nfor Android</string>
+    <string name="btn_proactive_experiences_text">AIQUA 1:1 Personalization Demo</string>
+
+    <!-- Proactive Experiences Page -->
+    <string name="text_proactive_experiences_title">AIQUA 1:1 Personalization Demo</string>
+    <string name="text_proactive_experiences_desc_part1">For this demo,\nyou\'ll be taken to a sample e-commerce app.</string>
+    <string name="text_proactive_experiences_desc_part2">The push notifications and your experiences within the app will be personalized in real time based on the categories and products you are interacting with.</string>
+    <string name="text_proactive_experiences_desc_part3">This is a small sample of AIQUA\'s capabilities. Your marketing team can personalize user experiences at every touch point to drive engagement and revenue.</string>
+    <string name="btn_goto_product_category_text">Start Demo</string>
+
+
+    <!-- Product Category Page -->
+    <string name="text_productL_category_title">AIQUA 1:1 Personalization Demo</string>
+    <string name="text_get_notification_desc">View one more products to experience AIQUA\'s class leading personalized push notification and app personalization.</string>
+    <string name="btn_get_notification_text">Get a Personalized Notification</string>
+    <string name="btn_view_all_products_text">View all</string>
+
+    <!-- Product Detail Page -->
+    <string name="text_added_to_favorite">Added to my favorite</string>
+    <string name="text_added_to_cart">Added to my cart</string>
+
+    <!-- Template List Page -->
+    <string name="template_list_page_title">Exclusive AIQUA Creatives for Android</string>
+    <string name="push_notification_fragment_title">Push Notifications</string>
+    <string name="in_app_notification_fragment_title">In-App Notifications</string>
+
+
+    <!-- Debug -->
+    <string name="clear_all_sp_data">"Clear all personal data"</string>
+
+</resources>

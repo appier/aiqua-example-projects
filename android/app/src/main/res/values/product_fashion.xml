@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Note: We storage detail for each fashion product in this file -->
+    <!-- Note: The value of item is as the following -->
+    <!-- Note: 1. Product Name -->
+    <!-- Note: 2. Product Description -->
+    <!-- Note: 3. Product Rating -->
+    <!-- Note: 4. The count of the rating -->
+    <!-- Note: 5. The current price of the product -->
+    <!-- Note: 6. The previous price of the product -->
+    <!-- Note: 6. The discount of the product -->
+
+    <string-array name="product_fashion_01_detail">
+        <item>Generic Striped T-Shirt</item>
+        <item>• Black and White\n• Slim Fit</item>
+        <item>4.4 ★</item>
+        <item>5,112 ratings</item>
+        <item>$ 19.99</item>
+        <item>29.99</item>
+        <item>33% off</item>
+        <item>https://cdn.qgraph.io/img/aiqua-demo/productScreen/productScreen_CategoryA_product1.jpg</item>
+
+    </string-array>
+
+    <string-array name="product_fashion_02_detail">
+        <item>Generic Sweater</item>
+        <item>• Women Sweater\n• Half Sleeves</item>
+        <item>3.9 ★</item>
+        <item>14,925 ratings</item>
+        <item>$ 49.99</item>
+        <item>74.99</item>
+        <item>33% off</item>
+        <item>https://cdn.qgraph.io/img/aiqua-demo/productScreen/productScreen_CategoryA_product2.jpg</item>
+    </string-array>
+
+    <string-array name="product_fashion_03_detail">
+        <item>Generic Henley T-Shirt</item>
+        <item>• Blue and White\n• Regular Fit</item>
+        <item>4.1 ★</item>
+        <item>8,434 ratings</item>
+        <item>$ 24.99</item>
+        <item>29.99</item>
+        <item>17% off</item>
+        <item>https://cdn.qgraph.io/img/aiqua-demo/productScreen/productScreen_CategoryA_product3.jpg</item>
+    </string-array>
+
+    <string-array name="product_fashion_04_detail">
+        <item>Generic Checkered Shirt</item>
+        <item>• Blue, Black and White\n• Slim Fit, Full Sleeves</item>
+        <item>4.3 ★</item>
+        <item>1,978 ratings</item>
+        <item>$ 39.99</item>
+        <item>49.99</item>
+        <item>20% off</item>
+        <item>https://cdn.qgraph.io/img/aiqua-demo/productScreen/productScreen_CategoryA_product4.jpg</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Note: We storage detail for each electronics product in this file -->
+    <!-- Note: The value of item is as the following -->
+    <!-- Note: 1. Product Name -->
+    <!-- Note: 2. Product Description -->
+    <!-- Note: 3. Product Rating -->
+    <!-- Note: 4. The count of the rating -->
+    <!-- Note: 5. The current price of the product -->
+    <!-- Note: 6. The previous price of the product -->
+    <!-- Note: 6. The discount of the product -->
+
+    <string-array name="product_electronics_01_detail">
+        <item>Generic Headphones</item>
+        <item>• Silver Color\n• Faux Leather Ear Pads</item>
+        <item>4.3 ★</item>
+        <item>9,256 ratings</item>
+        <item>$ 99.99</item>
+        <item>149.99</item>
+        <item>33% off</item>
+        <item>https://cdn.qgraph.io/img/aiqua-demo/productScreen/productScreen_CategoryC_product1.jpg</item>
+    </string-array>
+
+    <string-array name="product_electronics_02_detail">
+        <item>Generic Laptop</item>
+        <item>• Very Fast Processor\n• Included Optical Drive</item>
+        <item>3.5 ★</item>
+        <item>3,827 ratings</item>
+        <item>$ 1099.99</item>
+        <item>1499.99</item>
+        <item>27% off</item>
+        <item>https://cdn.qgraph.io/img/aiqua-demo/productScreen/productScreen_CategoryC_product2.jpg</item>
+    </string-array>
+
+    <string-array name="product_electronics_03_detail">
+        <item>Generic Printer</item>
+        <item>• A4 Size\n• Ink Jet Technology</item>
+        <item>4.5 ★</item>
+        <item>8,248 ratings</item>
+        <item>$ 199.99</item>
+        <item>249.99</item>
+        <item>20% off</item>
+        <item>https://cdn.qgraph.io/img/aiqua-demo/productScreen/productScreen_CategoryC_product3.jpg</item>
+    </string-array>
+
+    <string-array name="product_electronics_04_detail">
+        <item>Generic Speakers</item>
+        <item>• 2.1 Channel\n• Powerful Bass</item>
+        <item>4.1 ★</item>
+        <item>9,987 ratings</item>
+        <item>$ 149.99</item>
+        <item>199.99</item>
+        <item>25% off</item>
+        <item>https://cdn.qgraph.io/img/aiqua-demo/productScreen/productScreen_CategoryC_product4.jpg</item>
+    </string-array>
+
+
+</resources>

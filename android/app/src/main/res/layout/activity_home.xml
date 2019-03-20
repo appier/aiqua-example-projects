@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    android:background="@color/colorDefaultGray">
+
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/colorTransparent">
+        
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/home_cover_image_default"/>
+
+        <Button
+            android:id="@+id/btn_contact_sales"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="@dimen/btn_contact_sales_left_margin"
+            android:layout_marginBottom="@dimen/btn_contact_sales_bottom_margin"
+
+            android:background="@drawable/btn_default_bg"
+
+            android:paddingTop="@dimen/btn_contact_sales_text_top_bottom_padding"
+            android:paddingBottom="@dimen/btn_contact_sales_text_top_bottom_padding"
+            android:paddingLeft="@dimen/btn_contact_sales_text_left_right_padding"
+            android:paddingRight="@dimen/btn_contact_sales_text_left_right_padding"
+
+            android:text="@string/btn_contact_sales_text"
+            android:textColor="@color/colorBtnContactSalesText"
+            android:textSize="@dimen/btn_contact_sales_text_size"
+            android:textAllCaps="false" />
+        
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/colorTransparent">
+
+        <RelativeLayout
+            android:id="@+id/selecting_layout"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/bg_home_selecting_layout_margin"
+            android:gravity="center"
+            android:background="@drawable/bg_home_selecting_layout">
+
+            <Button
+                android:id="@+id/btn_proactive_experiences"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_gravity="top|center_horizontal"
+                android:layout_marginTop="@dimen/btn_proactive_experiences_top_margin"
+                android:layout_marginBottom="@dimen/btn_proactive_experiences_bottom_margin"
+                android:layout_marginLeft="@dimen/btn_home_default_left_right_margin"
+                android:layout_marginRight="@dimen/btn_home_default_left_right_margin"
+
+                android:background="@drawable/btn_default_bg2"
+
+                android:textSize="@dimen/btn_home_default_text_size"
+                android:textColor="@color/colorBtnHomeDefaultText"
+                android:text="@string/btn_proactive_experiences_text"
+                android:textAllCaps="false"
+
+                android:alpha="0.8"
+                android:padding="@dimen/btn_home_main_text_padding" />
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

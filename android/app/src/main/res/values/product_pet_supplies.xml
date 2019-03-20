@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Note: We storage detail for each fashion product in this file -->
+    <!-- Note: The value of item is as the following -->
+    <!-- Note: 1. Product Name -->
+    <!-- Note: 2. Product Description -->
+    <!-- Note: 3. Product Rating -->
+    <!-- Note: 4. The count of the rating -->
+    <!-- Note: 5. The current price of the product -->
+    <!-- Note: 6. The previous price of the product -->
+    <!-- Note: 6. The discount of the product -->
+
+    <string-array name="product_pet_supplies_01_detail">
+        <item>Small Dog White Meat Chicken</item>
+        <item>• 7lb Bag\n• Bite-sized kibble Design</item>
+        <item>4.3 ★</item>
+        <item>9,256 ratings</item>
+        <item>$ 15.99</item>
+        <item>17.99</item>
+        <item>11% off</item>
+        <item>https://cdn.qgraph.io/img/aiqua-demo/productScreen/productScreen_CategoryD_product1.jpg</item>
+
+    </string-array>
+
+    <string-array name="product_pet_supplies_02_detail">
+        <item>Dog Dental Chews Dog Treats</item>
+        <item>• 130-count pack\n• Natural Ingredients</item>
+        <item>3.5 ★</item>
+        <item>3,827 packatings</item>
+        <item>$ 26.99</item>
+        <item>29.99</item>
+        <item>10% off</item>
+        <item>https://cdn.qgraph.io/img/aiqua-demo/productScreen/productScreen_CategoryD_product2.jpg</item>
+    </string-array>
+
+    <string-array name="product_pet_supplies_03_detail">
+        <item>Bear Dog Toy</item>
+        <item>• Soft and cuddly\n• Extra durability</item>
+        <item>4.5 ★</item>
+        <item>8,248 ratings</item>
+        <item>$ 10.99</item>
+        <item>14.99</item>
+        <item>33% off</item>
+        <item>https://cdn.qgraph.io/img/aiqua-demo/productScreen/productScreen_CategoryD_product3.jpg</item>
+    </string-array>
+
+    <string-array name="product_pet_supplies_04_detail">
+        <item>Premium Dog Bed</item>
+        <item>• 100% Polyester\n• Soft and Cozy</item>
+        <item>4.1 ★</item>
+        <item>9,987 ratings</item>
+        <item>$ 49.99</item>
+        <item>79.99</item>
+        <item>33% off</item>
+        <item>https://cdn.qgraph.io/img/aiqua-demo/productScreen/productScreen_CategoryD_product4.jpg</item>
+    </string-array>
+
+
+</resources>

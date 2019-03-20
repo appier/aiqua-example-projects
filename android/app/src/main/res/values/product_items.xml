@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Fashion -->
+    <string-array name="product_fashion_title">
+        <item>Generic Striped T-Shirt</item>
+        <item>Generic Sweater</item>
+        <item>Generic Henley T-Shirt</item>
+        <item>Generic Checkered Shirt</item>
+    </string-array>
+
+    <string-array name="product_fashion_description">
+        <item>• Black and White\n• Slim Fit</item>
+        <item>• Women Sweater\n• Half Sleeves</item>
+        <item>• Blue and White\n• Regular Fit</item>
+        <item>• Blue, Black and White\n• Slim Fit, Full Sleeves</item>
+    </string-array>
+
+    <string-array name="product_fashion_current_price">
+        <item>$ 19.99</item>
+        <item>$ 49.99</item>
+        <item>$ 24.99</item>
+        <item>$ 39.99</item>
+    </string-array>
+
+    <string-array name="product_fashion_previous_price">
+        <item>29.99</item>
+        <item>74.99</item>
+        <item>29.99</item>
+        <item>49.99</item>
+    </string-array>
+
+
+
+    <!-- Shoes -->
+    <string-array name="product_shoes_title">
+        <item>Sports Shoes</item>
+        <item>Running Shoes</item>
+        <item>Stilettos</item>
+        <item>Sneakers</item>
+    </string-array>
+
+    <string-array name="product_shoes_description">
+        <item>• Grey Color\n• Foam Padding</item>
+        <item>• Aqua Green\n• Foam Sole</item>
+        <item>• Blue and Gold\n• 4 inch Heels</item>
+        <item>• Yellow Color\n• Lace-Up, Synthetic</item>
+    </string-array>
+
+    <string-array name="product_shoes_current_price">
+        <item>$ 99.99</item>
+        <item>$ 299.99</item>
+        <item>$ 249.99</item>>
+        <item>$ 199.99</item>
+    </string-array>
+
+    <string-array name="product_shoes_previous_price">
+        <item>129.99</item>
+        <item>399.99</item>
+        <item>499.99</item>
+        <item>249.99</item>
+    </string-array>
+
+
+    <!-- Electronics -->
+    <string-array name="product_electronics_title">
+        <item>Generic Headphones</item>
+        <item>Generic Laptop</item>
+        <item>Generic Printer</item>
+        <item>Generic Speakers</item>
+    </string-array>
+
+    <string-array name="product_electronics_description">
+        <item>• Silver Color\n• Faux Leather Ear Pads</item>
+        <item>• Very Fast Processor\n• Included Optical Drive</item>
+        <item>• A4 Size\n• Ink Jet Technology</item>
+        <item>• 2.1 Channel\n• Powerful Bass</item>
+    </string-array>
+
+    <string-array name="product_electronics_current_price">
+        <item>$ 99.99</item>
+        <item>$ 1099.99</item>
+        <item>$ 199.99</item>
+        <item>$ 149.99</item>
+    </string-array>
+
+    <string-array name="product_electronics_previous_price">
+        <item>149.99</item>
+        <item>1499.99</item>
+        <item>249.99</item>
+        <item>199.99</item>
+    </string-array>
+
+    <!-- Electronics -->
+    <string-array name="product_pet_supplies_title">
+        <item>Small Dog White Meat Chicken</item>
+        <item>Dog Dental Chews Dog Treats</item>
+        <item>Bear Dog Toy</item>
+        <item>Premium Dog Bed</item>
+    </string-array>
+
+    <string-array name="product_pet_supplies_description">
+        <item>• 7lb Bag\n• Bite-sized kibble Design</item>
+        <item>• 130-count pack\n• Natural Ingredients</item>
+        <item>• Soft and cuddly\n• Extra durability</item>
+        <item>• 100% Polyester\n• Soft and Cozy</item>
+    </string-array>
+
+    <string-array name="product_pet_supplies_current_price">
+        <item>$ 15.99</item>
+        <item>$ 26.99</item>
+        <item>$ 10.99</item>
+        <item>$ 49.99</item>
+    </string-array>
+
+    <string-array name="product_pet_supplies_previous_price">
+        <item>17.99</item>
+        <item>29.99</item>
+        <item>14.99</item>
+        <item>74.99</item>
+    </string-array>
+
+</resources>

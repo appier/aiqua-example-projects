@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Note: We storage detail for each shoes product in this file -->
+    <!-- Note: The value of item is as the following -->
+    <!-- Note: 1. Product Name -->
+    <!-- Note: 2. Product Description -->
+    <!-- Note: 3. Product Rating -->
+    <!-- Note: 4. The count of the rating -->
+    <!-- Note: 5. The current price of the product -->
+    <!-- Note: 6. The previous price of the product -->
+    <!-- Note: 6. The discount of the product -->
+
+    <string-array name="product_shoes_01_detail">
+        <item>Sports Shoes</item>
+        <item>• Grey Color\n• Foam Padding</item>
+        <item>4.5 ★</item>
+        <item>4,429 ratings</item>
+        <item>$ 99.99</item>
+        <item>129.99</item>
+        <item>23% off</item>
+        <item>https://cdn.qgraph.io/img/aiqua-demo/productScreen/productScreen_CategoryB_product1.jpg</item>
+    </string-array>
+
+    <string-array name="product_shoes_02_detail">
+        <item>Running Shoes</item>
+        <item>• Aqua Green\n• Foam Sole</item>
+        <item>4.0 ★</item>
+        <item>6,814 ratings</item>
+        <item>$ 299.99</item>
+        <item>399.99</item>
+        <item>25% off</item>
+        <item>https://cdn.qgraph.io/img/aiqua-demo/productScreen/productScreen_CategoryB_product2.jpg</item>
+
+    </string-array>
+
+    <string-array name="product_shoes_03_detail">
+        <item>Stilettos</item>
+        <item>• Blue and Gold\n• 4 inch Heels</item>
+        <item>4.8 ★</item>
+        <item>1,446 ratings</item>
+        <item>$ 249.99</item>
+        <item>499.99</item>
+        <item>50% off</item>
+        <item>https://cdn.qgraph.io/img/aiqua-demo/productScreen/productScreen_CategoryB_product3.jpg</item>
+
+    </string-array>
+
+    <string-array name="product_shoes_04_detail">
+        <item>Sneakers</item>
+        <item>• Yellow Color\n• Lace-Up, Synthetic</item>
+        <item>3.9 ★</item>
+        <item>377 ratings</item>
+        <item>$ 199.99</item>
+        <item>249.99</item>
+        <item>20% off</item>
+        <item>https://cdn.qgraph.io/img/aiqua-demo/productScreen/productScreen_CategoryB_product4.jpg</item>
+    </string-array>
+
+
+</resources>

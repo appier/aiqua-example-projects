@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/text1"
+    style="?android:attr/spinnerItemStyle"
+    android:singleLine="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ellipsize="marquee"
+    android:paddingLeft="@dimen/edit_email_text_padding"
+    android:paddingRight="@dimen/edit_email_text_padding"
+    android:textColor="@color/colorLoginBtnText"
+    android:textSize="@dimen/btn_login_text_size"
+    android:textAlignment="inherit"/>

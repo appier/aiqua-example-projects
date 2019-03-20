@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+
+    <!-- Login Page -->
+    <dimen name="text_login_title_margin">10dp</dimen>
+    <dimen name="text_login_title_size">20sp</dimen>
+
+    <dimen name="text_login_desc_margin">16dp</dimen>
+    <dimen name="text_login_desc_size">14sp</dimen>
+
+    <dimen name="img_login_logo_margin">5dp</dimen>
+    <dimen name="img_login_dialog_margin">20dp</dimen>
+
+    <dimen name="edit_name_margin">30dp</dimen>
+    <dimen name="edit_name_btm_margin">10dp</dimen>
+    <dimen name="edit_name_text_size">14sp</dimen>
+    <dimen name="edit_name_text_padding">12dp</dimen>
+
+    <dimen name="edit_email_top_margin">15dp</dimen>
+    <dimen name="edit_email_bottom_margin">10dp</dimen>
+    <dimen name="edit_email_left_right_margin">30dp</dimen>
+    <dimen name="edit_email_text_size">14sp</dimen>
+    <dimen name="edit_email_text_padding">12dp</dimen>
+
+    <dimen name="btn_dropdown_margin">10dp</dimen>
+
+    <dimen name="spinner_btm_margin">5dp</dimen>
+
+    <dimen name="btn_login_margin">30dp</dimen>
+    <dimen name="btn_login_text_size">14sp</dimen>
+    <dimen name="btn_login_text_padding">20dp</dimen>
+
+    <dimen name="text_copyright_margin">16dp</dimen>
+    <dimen name="text_copyright_size">12sp</dimen>
+
+    <!-- Home Page -->
+    <dimen name="btn_contact_sales_bottom_margin">20dp</dimen>
+    <dimen name="btn_contact_sales_left_margin">15dp</dimen>
+    <dimen name="btn_contact_sales_text_size">15sp</dimen>
+    <dimen name="btn_contact_sales_text_top_bottom_padding">5dp</dimen>
+    <dimen name="btn_contact_sales_text_left_right_padding">45dp</dimen>
+
+    <dimen name="bg_home_selecting_layout_margin">20dp</dimen>
+    <dimen name="btn_home_default_top_down_margin">20dp</dimen>
+    <dimen name="btn_home_default_left_right_margin">35dp</dimen>
+    <dimen name="btn_home_default_text_size">15sp</dimen>
+    <dimen name="btn_home_main_text_padding">5dp</dimen>
+
+
+    <dimen name="btn_proactive_experiences_top_margin">15dp</dimen>
+    <dimen name="btn_proactive_experiences_bottom_margin">50dp</dimen>
+    <dimen name="btn_btn_show_template_top_margin">50dp</dimen>
+    <dimen name="btn_btn_show_template_bottom_margin">15dp</dimen>
+
+    <!-- Proactive Experiences Page -->
+    <dimen name="text_proactive_experiences_desc_top_down_margin">10dp</dimen>
+    <dimen name="text_proactive_experiences_desc_left_right_margin">20dp</dimen>
+    <dimen name="text_proactive_experiences_desc_size">16sp</dimen>
+
+    <dimen name="btn_goto_product_category_text_size">16sp</dimen>
+    <dimen name="btn_goto_product_category_text_top_down_padding">10dp</dimen>
+    <dimen name="btn_goto_product_category_text_left_right_padding">80dp</dimen>
+    <dimen name="btn_goto_product_category_top_margin">50dp</dimen>
+    <dimen name="btn_goto_product_category_bottom_margin">30dp</dimen>
+
+    <!-- Product Category Page -->
+    <dimen name="text_get_notification_desc_size">12sp</dimen>
+    <dimen name="text_get_notification_desc_left_right_margin">20dp</dimen>
+
+    <dimen name="btn_get_notification_text_size">12sp</dimen>
+    <dimen name="btn_get_notification_text_top_down_padding">10dp</dimen>
+    <dimen name="btn_get_notification_text_left_right_padding">40dp</dimen>
+
+    <!-- Product Category Item -->
+    <dimen name="img_category_thumb_margin">16dp</dimen>
+
+    <dimen name="text_category_item_title_size">18sp</dimen>
+    <dimen name="text_category_item_title_top_margin">5dp</dimen>
+    <dimen name="text_category_item_title_left_margin">5dp</dimen>
+    <dimen name="text_category_item_title_right_margin">16dp</dimen>
+
+    <dimen name="text_category_item_desc_size">12sp</dimen>
+    <dimen name="text_category_item_desc_top_margin">5dp</dimen>
+    <dimen name="text_category_item_desc_right_margin">16dp</dimen>
+
+    <dimen name="btn_category_item_text_left_right_padding">50dp</dimen>
+    <dimen name="btn_category_item_text_size">13sp</dimen>
+
+    <dimen name="listview_category_divide_height">3dp</dimen>
+
+
+    <!-- Product List Page -->
+    <dimen name="gridview_product_margin">20dp</dimen>
+    <dimen name="gridview_product_horizontal_spacing">5dp</dimen>
+    <dimen name="gridview_product_vertical_spacing">10dp</dimen>
+
+    <!-- Product Item -->
+    <dimen name="text_product_item_title_size">15sp</dimen>
+    <dimen name="text_product_item_title_left_margin">10dp</dimen>
+    <dimen name="text_product_item_title_top_margin">15dp</dimen>
+
+    <dimen name="text_product_item_desc_size">12sp</dimen>
+    <dimen name="text_product_item_desc_left_right_margin">10dp</dimen>
+    <dimen name="text_product_item_desc_top_margin">15dp</dimen>
+    <dimen name="text_product_item_desc_line_space">1.5sp</dimen>
+
+    <dimen name="layout_product_item_price_margin">15dp</dimen>
+
+    <dimen name="text_product_item_current_price_size">22sp</dimen>
+
+    <dimen name="text_product_item_previous_price_size">14sp</dimen>
+    <dimen name="text_product_item_previous_price_left_margin">10dp</dimen>
+
+    <dimen name="layout_product_item_btn_margin">5dp</dimen>
+
+    <dimen name="btn_product_item_like_size">36dp</dimen>
+    <dimen name="btn_product_item_like_bottom_margin">10dp</dimen>
+    <dimen name="btn_product_item_like_left_margin">20dp</dimen>
+
+    <dimen name="btn_product_item_shopping_cart_size">36dp</dimen>
+    <dimen name="btn_product_item_shopping_cart_bottom_margin">10dp</dimen>
+    <dimen name="btn_product_item_shopping_cart_right_margin">20dp</dimen>
+
+
+    <!-- Product Detail Page -->
+    <dimen name="layout_product_detail_margin">20dp</dimen>
+
+    <dimen name="text_product_name_size">24sp</dimen>
+    <dimen name="text_product_name_bottom_margin">10dp</dimen>
+
+    <dimen name="text_product_desc_size">18sp</dimen>
+    <dimen name="text_product_desc_bottom_margin">15dp</dimen>
+    <dimen name="text_product_desc_line_space">1.4sp</dimen>
+
+    <dimen name="layout_product_rating_bottom_margin">15dp</dimen>
+    <dimen name="text_product_rating_size">16sp</dimen>
+
+    <dimen name="text_product_rating_count_size">13sp</dimen>
+    <dimen name="text_product_rating_count_left_margin">15dp</dimen>
+
+    <dimen name="text_product_current_price_size">34sp</dimen>
+
+    <dimen name="text_product_previous_price_size">18sp</dimen>
+    <dimen name="text_product_previous_price_left_margin">10dp</dimen>
+
+    <dimen name="text_product_discount_size">14sp</dimen>
+    <dimen name="text_product_discount_left_margin">10dp</dimen>
+
+    <dimen name="btn_wishlist_left_margin">50dp</dimen>
+
+    <dimen name="btn_product_shopping_cart_right_margin">50dp</dimen>
+
+
+    <!-- Template List Page -->
+    <dimen name="listview_template_divide_height">3dp</dimen>
+
+    <!-- Notification Item -->
+    <dimen name="thumb_notification_margin">16sp</dimen>
+    <dimen name="text_notification_item_title_top_margin">5dp</dimen>
+    <dimen name="text_notification_item_title_size">15sp</dimen>
+
+    <dimen name="text_notification_item_desc_top_margin">5dp</dimen>
+    <dimen name="text_notification_item_desc_right_margin">16dp</dimen>
+    <dimen name="text_notification_item_desc_size">13sp</dimen>
+
+    <dimen name="layout_notification_button_right_margin">10dp</dimen>
+    <dimen name="btn_show_notification_example_right_margin">5dp</dimen>
+    <dimen name="btn_show_notification_example_text_size">13sp</dimen>
+
+
+    <!-- Default Action Bar -->
+    <dimen name="text_default_action_bar_title_size">14sp</dimen>
+    <dimen name="btn_goback_height">45dp</dimen>
+    <dimen name="btn_goback_left_margin">20dp</dimen>
+    <dimen name="btn_goback_top_down_margin">5dp</dimen>
+
+
+</resources>

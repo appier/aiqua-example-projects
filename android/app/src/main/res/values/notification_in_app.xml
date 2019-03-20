@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Note: We storage detail for each push notification type in this file -->
+    <!-- Note: The value of item is as following -->
+    <!-- Note: 1. Notification Name/Title -->
+    <!-- Note: 2. Notification Description -->
+    <!-- Note: 3. Notification Action One Naming -->
+    <!-- Note: 4. Notification Action Two Naming -->
+
+    <string-array name="floating_in_app_notification">
+        <item>Floating In-App Notification</item>
+        <item>Share a quick update without interrupting the user flow.</item>
+        <item>See Floating In-App</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="small_in_app_notification">
+        <item>Small In-App Notification</item>
+        <item>An In-App format useful for sharing longer updates.</item>
+        <item>See Small In-App</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="medium_in_app_notification">
+        <item>Medium In-App Notification</item>
+        <item>A rich In-App format with a cover image and optional message.</item>
+        <item>See Medium In-App</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="full_screen_in_app_notification">
+        <item>Full Screen In-App Notification</item>
+        <item>Show a full screen image with a call to action to engage users.</item>
+        <item>See Full Screen In-App</item>
+        <item></item>
+    </string-array>
+
+</resources>

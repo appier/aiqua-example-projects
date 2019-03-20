@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/colorDefaultGray"
+              android:baselineAligned="false"
+              android:orientation="vertical"
+              tools:context=".LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@color/colorTransparent">
+
+        <TextView
+            android:id="@+id/login_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/text_login_desc_margin"
+
+            android:alpha="0.5"
+            android:gravity="center"
+            android:text="@string/text_login_desc"
+
+            android:textColor="@color/colorLoginDefaultText"
+            android:textSize="@dimen/text_login_desc_size"/>
+
+        <TextView
+            android:id="@+id/login_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/login_description"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/text_login_title_margin"
+
+            android:alpha="0.9"
+            android:gravity="center"
+            android:text="@string/text_login_title"
+
+            android:textColor="@color/colorLoginDefaultText"
+            android:textSize="@dimen/text_login_title_size"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/login_title"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/img_login_logo_margin"
+
+            android:contentDescription="@string/text_login_logo"
+            android:src="@mipmap/aiqua_logo_white"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:background="@color/colorTransparent">
+
+        <LinearLayout
+            android:id="@+id/login_dialog"
+            android:orientation="vertical"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/img_login_dialog_margin"
+
+            android:background="@drawable/dialog_login_background"
+            android:minHeight="100dp"
+
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+            <EditText
+                android:id="@+id/name_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/edit_name_margin"
+                android:layout_marginRight="@dimen/edit_name_margin"
+                android:layout_marginBottom="0dp"
+
+                android:alpha="0.7"
+                android:backgroundTint="@color/colorLoginEditText"
+
+                android:hint="@string/edit_name_hint"
+                android:inputType="textPersonName"
+                android:maxLines="1"
+                android:singleLine="true"
+
+                android:paddingLeft="@dimen/edit_name_text_padding"
+                android:paddingRight="@dimen/edit_name_text_padding"
+
+                android:textColor="@color/colorLoginEditText"
+                android:textColorHint="@color/colorLoginEditText"
+                android:textSize="@dimen/edit_name_text_size"/>
+
+            <EditText
+
+                style="@style/Base.Widget.AppCompat.EditText"
+
+                android:id="@+id/email_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="@dimen/edit_email_left_right_margin"
+                android:layout_marginRight="@dimen/edit_email_left_right_margin"
+
+                android:alpha="0.7"
+                android:backgroundTint="@color/colorLoginEditText"
+
+                android:hint="@string/edit_email_hint"
+                android:maxLines="1"
+                android:singleLine="true"
+
+                android:paddingLeft="@dimen/edit_email_text_padding"
+                android:paddingRight="@dimen/edit_email_text_padding"
+
+                android:textColor="@color/colorLoginEditText"
+                android:textColorHint="@color/colorLoginEditText"
+                android:textSize="@dimen/edit_email_text_size"/>
+
+            <EditText
+                android:id="@+id/company_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/edit_name_margin"
+                android:layout_marginRight="@dimen/edit_name_margin"
+                android:layout_marginBottom="2dp"
+
+                android:alpha="0.7"
+                android:backgroundTint="@color/colorLoginEditText"
+
+                android:hint="@string/edit_company_hint"
+                android:inputType="textPersonName"
+                android:maxLines="1"
+                android:singleLine="true"
+
+                android:paddingLeft="@dimen/edit_name_text_padding"
+                android:paddingRight="@dimen/edit_name_text_padding"
+
+                android:textColor="@color/colorLoginEditText"
+                android:textColorHint="@color/colorLoginEditText"
+                android:textSize="@dimen/edit_name_text_size"/>
+
+            <CheckBox
+                android:id="@+id/agree_check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I agree to further marketing notifications"
+                android:textColor="@color/colorLoginEditText"
+                android:textColorHint="@color/colorLoginEditText"
+                android:textSize="12sp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="@dimen/edit_email_left_right_margin"/>
+
+            <Button
+                android:id="@+id/login_btn"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/btn_login_margin"
+                android:layout_marginEnd="@dimen/btn_login_margin"
+
+                android:background="@drawable/btn_default_bg2"
+
+                android:text="@string/btn_login_text"
+                android:textColor="@color/colorLoginBtnText"
+                android:textSize="@dimen/btn_login_text_size"
+
+                android:paddingTop="@dimen/btn_login_text_padding"
+                android:paddingBottom="@dimen/btn_login_text_padding"
+                android:includeFontPadding="true"
+                android:enabled="false"
+                android:alpha="0.5" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/text_copyright"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/text_copyright_margin"
+
+            android:text="@string/text_copyright"
+            android:textSize="@dimen/text_copyright_size"
+            android:textColor="@color/colorLoginDefaultText"
+
+            android:gravity="center_horizontal" />
+
+    </RelativeLayout>
+
+</LinearLayout>

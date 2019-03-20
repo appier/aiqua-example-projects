@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#26282B</color>
+    <color name="colorPrimaryDark">#26282B</color>
+    <color name="colorAccent">#68C5FF</color>
+    <color name="colorDefaultGray">#37393C</color>
+
+    <color name="colorContactButtonEnable">#68C5FF</color>
+    <color name="colorContactButtonDisable">#37393C</color>
+
+    <color name="colorDefaultButtonEnable">#68C5FF</color>
+    <color name="colorDefaultButtonStroke">#1F4FB7</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorTransparent">#00000000</color>
+
+    <!-- Login Page -->
+    <color name="colorLoginDialogBg">#37393C</color>
+    <color name="colorLoginDefaultText">#FFFFFF</color>
+    <color name="colorLoginEditText">#FFFFFF</color>
+
+    <color name="colorLoginBtnText">#FFFFFF</color>
+
+    <!-- Home Page -->
+    <color name="colorBtnContactSalesText">#FFFFFF</color>
+    <color name="colorBtnHomeDefaultText">#FFFFFF</color>
+
+    <!-- Proactive Experiences Page -->
+    <color name="colorProactiveExperiencesDescText">#FFFFFF</color>
+    <color name="colorgotoProductCategoryPageLayoutBg">#19ffffff</color>
+    <color name="colorBtngotoProductCategoryPageText">#FFFFFF</color>
+
+    <!-- Product Category Page -->
+    <color name="colorGetNotificationDescText">#FFFFFF</color>
+    <color name="colorBtnGetNotificationText">#FFFFFF</color>
+
+    <!-- Product Category Item -->
+    <color name="colorCategoryItemBg">#37393C</color>
+    <color name="colorCategoryItemTitleText">#FFFFFF</color>
+    <color name="colorCategoryItemDescText">#FFFFFF</color>
+    <color name="colorCategoryItemBtnText">#FFFFFF</color>
+
+    <!-- Product List Page -->
+    <!-- Product Item -->
+    <color name="colorProductItemBg">#434446</color>
+    <color name="colorProductItemTitleText">#FFFFFF</color>
+    <color name="colorProductItemDescText">#66FFFFFF</color>
+    <color name="colorProductItemCurPriceText">#FFFFFF</color>
+    <color name="colorProductItemPrePriceText">#66FFFFFF</color>
+
+    <!-- Product Detail Page -->
+    <color name="colorProductNameText">#FFFFFF</color>
+    <color name="colorProductDescText">#9A9FA8</color>
+
+    <color name="colorProductRatingText">#FFFFFF</color>
+    <color name="colorProductRatingCountText">#9A9FA8</color>
+
+    <color name="colorProductCurPriceText">#FFFFFF</color>
+    <color name="colorProductPrePriceText">#9A9FA8</color>
+    <color name="colorProductDiscountText">#FF5656</color>
+
+    <!-- Template List Page -->
+    <color name="colorTabLayoutNormalBg">#26282B</color>
+    <color name="colorTabLayoutSelectedBg">#99000000</color>
+    <color name="colorTabLayoutNormalText">#66FFFFFF</color>
+    <color name="colorTabLayoutSelectedText">#24acff</color>
+
+    <!-- Notification Item -->
+    <color name="colorNotificationItemTitleText">#FFFFFF</color>
+    <color name="colorNotificationItemDescText">#66FFFFFF</color>
+    <color name="colorNotificationItemBtnText">#FFFFFF</color>
+
+    <!-- Default Action Bar -->
+    <color name="colorDefaultActionBarBg">#4D4E4F</color>
+    <color name="colorDefaultActionBarTitle">#FFFFFF</color>
+
+
+</resources>

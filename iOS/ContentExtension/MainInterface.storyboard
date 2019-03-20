@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Upc-Mg-iDO">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Notification View Controller-->
+        <scene sceneID="5Am-FT-PAH">
+            <objects>
+                <viewController id="Upc-Mg-iDO" userLabel="Notification View Controller" customClass="NotificationViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="AZW-Cr-PTi"/>
+                        <viewControllerLayoutGuide type="bottom" id="LCA-r7-l7t"/>
+                    </layoutGuides>
+                    <view key="view" opaque="NO" contentMode="scaleToFill" simulatedAppContext="notificationCenter" id="6BF-H9-LrR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="345"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ddo-CW-bdV" customClass="iCarousel">
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="335" id="mvB-PP-aaa"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="dataSource" destination="Upc-Mg-iDO" id="T8Q-bz-Ego"/>
+                                    <outlet property="delegate" destination="Upc-Mg-iDO" id="Q04-Jg-7yc"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ddo-CW-bdV" firstAttribute="leading" secondItem="6BF-H9-LrR" secondAttribute="leading" id="5if-pP-US9"/>
+                            <constraint firstItem="ddo-CW-bdV" firstAttribute="top" secondItem="AZW-Cr-PTi" secondAttribute="bottom" constant="5" id="Rxi-4M-uDl"/>
+                            <constraint firstItem="ddo-CW-bdV" firstAttribute="bottom" secondItem="LCA-r7-l7t" secondAttribute="top" constant="-5" id="v3k-Y7-81I"/>
+                            <constraint firstAttribute="trailing" secondItem="ddo-CW-bdV" secondAttribute="trailing" id="vWl-Q3-3fF"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="345"/>
+                    <connections>
+                        <outlet property="carousel" destination="ddo-CW-bdV" id="wrm-uJ-jBd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eUK-28-ycf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="148.80000000000001" y="100.29985007496252"/>
+        </scene>
+    </scenes>
+</document>

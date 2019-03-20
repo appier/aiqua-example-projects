@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_category_item">
+
+    <ImageView
+        android:id="@+id/img_thumb_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="@dimen/thumb_notification_margin"
+
+        android:src="@mipmap/thumbnail_floating"
+        android:scaleType="centerInside"/>
+
+    <TextView
+        android:id="@+id/text_item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/img_thumb_notification"
+        android:layout_alignTop="@+id/img_thumb_notification"
+        android:layout_marginTop="@dimen/text_notification_item_title_top_margin"
+
+        android:singleLine="true"
+        android:maxLines="1"
+        android:ellipsize="end"
+
+        android:text="Floating In-App Notification"
+        android:textSize="@dimen/text_notification_item_title_size"
+        android:textColor="@color/colorNotificationItemTitleText" />
+
+
+    <TextView
+        android:id="@+id/text_item_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/text_item_title"
+        android:layout_below="@+id/text_item_title"
+        android:layout_marginTop="@dimen/text_notification_item_desc_top_margin"
+        android:layout_marginRight="@dimen/text_notification_item_desc_right_margin"
+
+        android:maxLines="2"
+        android:ellipsize="end"
+
+        android:text="Share a quick update without interrupting the user flow."
+
+        android:textSize="@dimen/text_notification_item_desc_size"
+        android:textColor="@color/colorNotificationItemDescText"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/text_item_title"
+        android:layout_alignBottom="@+id/img_thumb_notification"
+        android:orientation="horizontal"
+        android:layout_marginRight="@dimen/layout_notification_button_right_margin">
+
+        <Button
+            android:id="@+id/btn_show_example_one"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginRight="@dimen/btn_show_notification_example_right_margin"
+
+            android:background="@drawable/btn_default_bg"
+
+            android:text="See Gif"
+            android:textColor="@color/colorNotificationItemBtnText"
+            android:textSize="@dimen/btn_show_notification_example_text_size"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/btn_show_example_two"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/btn_show_notification_example_right_margin"
+
+            android:background="@drawable/btn_default_bg"
+
+            android:text="See Floating In-App"
+            android:textColor="@color/colorNotificationItemBtnText"
+            android:textSize="@dimen/btn_show_notification_example_text_size"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

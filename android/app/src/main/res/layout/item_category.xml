@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_category_item">
+
+    <ImageView
+        android:id="@+id/img_thumb_notification"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="@dimen/img_category_thumb_margin"
+
+        android:src="@mipmap/thumbnail_fashion"/>
+
+    <TextView
+        android:id="@+id/text_item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/img_thumb_notification"
+        android:layout_alignTop="@+id/img_thumb_notification"
+        android:layout_marginTop="@dimen/text_category_item_title_top_margin"
+        android:layout_marginLeft="@dimen/text_category_item_title_left_margin"
+        android:layout_marginRight="@dimen/text_category_item_title_right_margin"
+
+        android:singleLine="true"
+        android:maxLines="1"
+        android:ellipsize="end"
+
+        android:textSize="@dimen/text_category_item_title_size"
+        android:textColor="@color/colorCategoryItemTitleText"
+        android:textStyle="bold"/>
+
+    <!-- In first version we have description. Keep it just in case. -->
+    <TextView
+        android:id="@+id/text_item_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/text_item_title"
+        android:layout_below="@+id/text_item_title"
+        android:layout_marginTop="@dimen/text_category_item_desc_top_margin"
+        android:layout_marginRight="@dimen/text_category_item_desc_right_margin"
+
+        android:singleLine="true"
+        android:maxLines="1"
+        android:ellipsize="end"
+
+        android:visibility="gone"
+
+        android:textSize="@dimen/text_category_item_desc_size"
+        android:textColor="@color/colorCategoryItemDescText"/>
+
+    <Button
+        android:id="@+id/btn_show_example_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/text_item_title"
+        android:layout_alignBottom="@+id/img_thumb_notification"
+        android:paddingRight="@dimen/btn_category_item_text_left_right_padding"
+        android:paddingLeft="@dimen/btn_category_item_text_left_right_padding"
+
+        android:background="@drawable/btn_default_bg"
+
+        android:text="@string/btn_view_all_products_text"
+        android:textColor="@color/colorCategoryItemBtnText"
+        android:textSize="@dimen/btn_category_item_text_size"
+        android:textAllCaps="false"/>
+
+
+
+</RelativeLayout>
