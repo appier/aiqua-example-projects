@@ -1,0 +1,26 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '10.0'
+
+target 'AppierSampleApp' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for AppierSampleApp
+  pod 'AppierFramework'
+end
+
+target 'ContentExtension' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for ContentExtension
+  pod 'AppierFramework'
+end
+
+target 'ServiceExtension' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for ServiceExtension
+  pod 'AppierFramework'
+end
