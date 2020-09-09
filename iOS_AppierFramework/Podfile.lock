@@ -1,0 +1,16 @@
+PODS:
+  - AppierFramework (7.0.0)
+
+DEPENDENCIES:
+  - AppierFramework
+
+SPEC REPOS:
+  trunk:
+    - AppierFramework
+
+SPEC CHECKSUMS:
+  AppierFramework: 88fde2cc2406b41549f624b18ae0bb6cb79ac29f
+
+PODFILE CHECKSUM: 1e5c6ae9c07014d4052a5c2bc295f66483462f19
+
+COCOAPODS: 1.9.3
